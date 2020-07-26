@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body> 
+
+
+    <div class="container-fluid" >
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-3 col-md-3 col-sm-3">
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-6 border border-danger mt-5 mb-5"
+                    style="text-align: center; background-color: #093ac2;">
+
+
+                    <p class="mt-5"><span>
+                            
+                            <h5>TODO APP</h5>
+                        </span> </p>
+
+                    <input class="mb-3 border border-success" type="text" placeholder="Enter Todo Here"
+                        style="background-color: white;" id="todo-item">
+                        <br>
+                    <button class="mb-5 btn border border-danger" onclick="addtodo()"> Add Item</button>
+                    <button class="mb-5 btn border border-danger" onclick="delAllBtn()"> Delete All</button>
+                </div>
+
+                <div class="col-lg-3 col-md-3 col-sm-3">
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid" style="background-color: #093ac2;">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-3 col-md-3 col-sm-3">
+                </div>
+                
+                <div class="col-lg-6 col-md-6 col-sm-6 border mt-5 mb-5" style="background-color: #e6ad12;">
+                    <div>
+                        <h4 style="text-align: center;">Your list</h4>
+                        <ul id="list" style="text-align: center;">
+                
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-3 col-sm-3">
+                </div>
+
+
+            </div>
+        </div>
+    </div>    
+
+
+
+    <div>
+        <ul id="list" >
+
+        </ul>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

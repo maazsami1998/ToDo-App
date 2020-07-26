@@ -1,0 +1,22 @@
+.btn{
+    background-color: rgb(231, 154, 39);
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: 800;
+    
+}
+
+.btn2{
+    background-color: rgb(28, 89, 201);
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: 600;
+   
+}
+
+li{
+    margin: 10px;
